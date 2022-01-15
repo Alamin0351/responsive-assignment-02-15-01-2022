@@ -351,9 +351,13 @@ Footer {
 /* ============================================== */
 
 @media (max-width:576px) {
+    body{
+        width: 100%;
+    }
     .header {
         grid-template-columns: 1fr;
         order: 2;
+        width: 100%;
     }
 
     .right-header img{
