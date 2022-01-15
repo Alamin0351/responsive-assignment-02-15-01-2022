@@ -154,6 +154,11 @@ margin-top: 60px;
 margin-left: 40px;
 
 }
+.right-header img:hover{
+    width: 450px;
+    padding: 10px;
+    border: 1px solid #E02C6D;
+}
 
 .left-header h1 {
     font-weight: 700;
