@@ -141,3 +141,26 @@ color: #787885;
     text-align: center;
     margin-bottom: 60px;
 }
+
+.product {
+    width: 329px;
+    height: 476px;
+    box-shadow: 1px 1px 1px gray;
+    padding: 15px;
+    border-radius: 5px;
+    
+}
+.description {
+    margin-top: 20px;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    justify-content: space-around;
+}
+.main-products {
+    margin: 50px auto;
+    
+
+}
