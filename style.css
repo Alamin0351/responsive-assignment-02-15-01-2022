@@ -369,6 +369,10 @@ Footer {
         width: 100%;
         margin: 0 auto;
     }
+    .newsletter{
+        width: 100%;
+        margin: 0 auto;
+    }
     .right-header p{
         width: 100%;
     }
@@ -377,7 +381,7 @@ Footer {
         margin: 0,auto;
     }
 
-    .media{
+    .alamin{
         grid-template-columns: 1fr;
         width: 100%;
     }
