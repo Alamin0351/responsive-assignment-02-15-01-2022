@@ -363,6 +363,11 @@ Footer {
     .right-header img{
         order: 1;
         width: 100%;
+        margin: 0 auto;
+    }
+    .photo-camera {
+        width: 100%;
+        margin: 0 auto;
     }
     .right-header p{
         width: 100%;
@@ -377,6 +382,9 @@ Footer {
         width: 100%;
     }
     .media input{
+        width: 100%;
+    }
+    .media video {
         width: 100%;
     }
 
