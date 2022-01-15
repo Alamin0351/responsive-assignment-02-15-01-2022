@@ -290,7 +290,11 @@ color: #787885;
     width: 800px;
     
     border-radius: 15px;
+    margin: 0 auto;
     
+}
+.media{
+    margin: 0 auto;
 }
 input[type=text], input[type=submit] {
     width: 100%;
@@ -403,8 +407,7 @@ Footer {
     .media input{
         width: 100%;
     }
-    .media video {
-        width: 100%;
+    
     }
     .newsletter {
         width: 100%;
