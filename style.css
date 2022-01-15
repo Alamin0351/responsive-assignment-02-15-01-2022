@@ -367,4 +367,12 @@ Footer {
         grid-template-columns: 1fr;
         margin: 0,auto;
     }
+
+    .media{
+        grid-template-columns: 1fr;
+    }
+
+    nav{
+        display: hidden;
+    }
 }
