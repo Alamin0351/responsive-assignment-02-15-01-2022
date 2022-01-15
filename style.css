@@ -145,9 +145,9 @@ color: #787885;
 .product {
     width: 329px;
     height: 476px;
-    box-shadow: 1px 1px 1px gray;
+    box-shadow: rgba(160, 160, 165, 0.2) 0px 8px 24px;
     padding: 15px;
-    border-radius: 5px;
+    border-radius: 10px;
     
 }
 .description {
@@ -156,11 +156,13 @@ color: #787885;
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 30px;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
     justify-content: space-around;
 }
 .main-products {
-    margin: 50px auto;
+    margin: 60px auto;
+    max-width: 90%;
     
 
 }
