@@ -373,6 +373,6 @@ Footer {
     }
 
     nav{
-        display: hidden;
+        display: none;
     }
 }
