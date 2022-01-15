@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,300&display=swap');
 
+/* =======common style======= */
 *{
     padding: 0;
     margin: 0;
@@ -12,7 +13,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-
+/* ========Navigation style========== */
 nav {
     display: flex;
     justify-content: space-between;
@@ -46,7 +47,7 @@ nav {
 
 }
 
-/* header Area */
+/* ==========header Area=========== */
 
 .header {
     display: grid;
@@ -187,7 +188,7 @@ font-size: 15px;
     margin-left: 15px;
 }
 
-/* Products area */
+/* ==========Products area============= */
 
 .photo img {
     width: 300px;
@@ -273,7 +274,7 @@ color: #787885;
   
 }
 
-/* video & subscribe */
+/* ==========video & subscribe============== */
 .media {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -300,12 +301,15 @@ input[type=text], input[type=submit] {
     background-color: #E02C6D;
     color: white;
     border: none;
+    width: 120px;
+    border-radius: 10px;
   }
   
   input[type=submit]:hover {
     opacity: 0.8;
   }
-/* Footer Area */
+  
+/* ===============Footer Area================== */
 
 Footer {
     height: 230px;
