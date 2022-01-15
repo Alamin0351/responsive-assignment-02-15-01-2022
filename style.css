@@ -362,6 +362,7 @@ Footer {
 
     .right-header img{
         order: 1;
+        width: 100%;
     }
     .container {
         grid-template-columns: 1fr;
@@ -370,6 +371,7 @@ Footer {
 
     .media{
         grid-template-columns: 1fr;
+        width: 100%;
     }
 
     nav .navigation{
