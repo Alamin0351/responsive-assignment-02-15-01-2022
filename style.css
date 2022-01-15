@@ -7,17 +7,20 @@
 }
 
 body {
-    max-width: 90%;
+    
     margin: 0 auto;
     font-family: 'Poppins', sans-serif;
 }
+
 
 nav {
     display: flex;
     justify-content: space-between;
     height: 52px;
-    margin-top: 50px;
     align-items: center;
+    max-width: 90%;
+    Padding-top: 70px;
+    margin: 0 auto;
 }
 
 .navigation ul {
@@ -48,6 +51,9 @@ nav {
 .header {
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    max-width: 90%;
+    margin: 0 auto;
+    margin: 0 auto;
 }
 
  .right-header{
@@ -162,7 +168,60 @@ color: #787885;
 }
 .main-products {
     margin: 60px auto;
-    max-width: 90%;
+    max-width: 80%;
     
 
+}
+.see-more {
+    margin-top: 30px;
+    padding: 10px;
+    text-align: right;
+}
+
+
+.see-more a{
+    color: #E02C6D;
+    width: 50px;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: right;
+  
+}
+
+/* Footer Area */
+
+Footer {
+    height: 230px;
+    background-color: rgb(2, 2, 32);
+
+}
+
+.footer-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-area h2 {
+    color: white;
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.footer-area p{
+    color: white;
+    padding-top: 10px;
+    font-size: 14px;
+    
+    
+}
+.social {
+    color: rgb(184, 175, 175);
+    font-size: 30px;
+    
+}
+.social .fab {
+    margin-right: 15px;
 }
