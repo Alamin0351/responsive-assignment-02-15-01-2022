@@ -273,11 +273,44 @@ color: #787885;
   
 }
 
+/* video & subscribe */
+.media {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 90%;
+    margin: 0 auto;
+}
+input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  input[type=checkbox] {
+    margin-top: 16px;
+  }
+  
+.button-1{
+    width: 30px;;
+}
+  input[type=submit] {
+    background-color: #E02C6D;
+    color: white;
+    border: none;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
 /* Footer Area */
 
 Footer {
     height: 230px;
     background-color: rgb(2, 2, 32);
+    Margin-top: 50px;
 
 }
 
