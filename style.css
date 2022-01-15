@@ -364,6 +364,9 @@ Footer {
         order: 1;
         width: 100%;
     }
+    .right-header p{
+        width: 100%;
+    }
     .container {
         grid-template-columns: 1fr;
         margin: 0,auto;
@@ -371,6 +374,9 @@ Footer {
 
     .media{
         grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .media input{
         width: 100%;
     }
 
