@@ -37,7 +37,7 @@ nav {
     
     list-style: none;
     text-transform: uppercase;
-    color: 
+   
 }
 
 .navigation ul li a {
@@ -308,7 +308,7 @@ input[type=text], input[type=submit] {
   input[type=submit]:hover {
     opacity: 0.8;
   }
-  
+
 /* ===============Footer Area================== */
 
 Footer {
@@ -345,4 +345,22 @@ Footer {
 }
 .social .fab {
     margin-right: 15px;
+}
+
+/* ========= Responsive style ===============*/
+/* ============================================== */
+
+@media (max-width:576px) {
+    .header {
+        grid-template-columns: 1fr;
+        order: 2;
+    }
+
+    .right-header img{
+        order: 1;
+    }
+    .container {
+        grid-template-columns: 1fr;
+        margin: 0,auto;
+    }
 }
