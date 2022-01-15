@@ -282,9 +282,15 @@ color: #787885;
     margin: 0 auto;
     grid-column-gap: 50px;;
 }
+.newsletter {
+    margin-top: 50px;
+    }
+}
 .video img{
-    width: 100%;
+    width: 800px;
+    
     border-radius: 15px;
+    
 }
 input[type=text], input[type=submit] {
     width: 100%;
