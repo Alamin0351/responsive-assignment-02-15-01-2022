@@ -55,6 +55,90 @@ nav {
     margin: 0 auto;
     margin: 0 auto;
 }
+.animation {
+    position: relative;
+    white-space: nowrap;
+    color: transparent;
+    font-size:40px;
+}
+.animation::before {
+    content: 'Influencer';
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #E02C6D;
+    animation: typing 4s linear infinite;
+    font-size: 60px;;
+}
+
+@keyframes typing {
+    0%{
+        content: "I|";
+    }
+    6%{
+        content: 'In|';
+    }
+    12%{
+        content: 'Inf|';
+    }
+    18%{
+        content: "Infl|";
+    }
+    24% {
+        content: "Influ|";
+    }
+    30%{
+        content: 'Influe|';
+    }
+    36%{
+        content: "Influen|";
+    }
+    42%{
+        content: "Influenc|";
+    }
+    48%{
+        content: "Influence|";
+    }
+    49%{
+        content: 'Influencer|';
+    }
+    50%,
+    90%{
+        content: 'Influencer|';
+
+    }
+    91%{
+        content: "Influence|";
+    }
+    92%{
+        content: "Influenc|";
+    }
+    93%{
+        content: "Influen|";
+    }
+    94%{
+        content : "Influe|";
+
+    }
+    95%{
+        content: "Influ|";
+    }
+    96%{
+        content: "Infl|";
+    }
+    97%{
+        content: "Inf|";
+    }
+    98%{
+        content: "In|";
+    }
+    99%{
+        content: "I|";
+    }
+    100%{
+        content: "|";
+    }
+}
 
  .right-header{
     display: flex;
